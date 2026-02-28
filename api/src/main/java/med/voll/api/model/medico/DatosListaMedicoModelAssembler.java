@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class DatosListaMedicoModelAssembler implements RepresentationModelAssembler<DatosListaMedico, EntityModel<DatosListaMedico>> {
+    @Override
     public EntityModel<DatosListaMedico> toModel(@NonNull DatosListaMedico datosListaMedico) {
         return EntityModel.of(datosListaMedico);
     }
