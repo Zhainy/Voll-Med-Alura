@@ -1,4 +1,4 @@
-package med.voll.api.model.medico;
+package med.voll.api.domain.medico;
 
 import lombok.NonNull;
 import org.springframework.hateoas.EntityModel;

@@ -1,11 +1,9 @@
-package med.voll.api.model.direccion;
+package med.voll.api.domain.direccion;
 
 import jakarta.persistence.Embeddable;
-import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.voll.api.model.medico.DatosActualizacionMedico;
 
 @Getter
 @NoArgsConstructor

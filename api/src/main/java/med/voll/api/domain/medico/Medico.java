@@ -1,4 +1,4 @@
-package med.voll.api.model.medico;
+package med.voll.api.domain.medico;
 
 import jakarta.persistence.*;
 import jakarta.validation.Valid;
@@ -7,7 +7,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import med.voll.api.dto.DatosRegistroMedico;
-import med.voll.api.model.direccion.Direccion;
+import med.voll.api.domain.direccion.Direccion;
 import med.voll.api.dto.Especialidad;
 
 @Table(name = "medicos")
